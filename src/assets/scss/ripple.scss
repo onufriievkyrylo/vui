@@ -1,0 +1,30 @@
+.ripple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  &--ink {
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition-property: width, height, background-color;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+  }
+
+  .animation {
+    &-leave {
+      opacity: 1;
+    }
+
+    &-leave-active {
+      transition: opacity .2s ease-in;
+    }
+
+    &-leave-to {
+      opacity: 0;
+    }
+  }
+}

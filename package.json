@@ -10,7 +10,7 @@
   "dependencies": {
     "@vue/composition-api": "^0.3.4",
     "core-js": "^3.4.3",
-    "luxon": "^1.21.3",
+    "luxon": "^1.28.1",
     "vue": "^2.6.10",
     "vue-next": "0.0.1"
   },
